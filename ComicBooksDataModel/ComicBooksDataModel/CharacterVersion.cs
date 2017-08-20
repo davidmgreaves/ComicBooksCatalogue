@@ -10,7 +10,7 @@ namespace ComicBooksDataModel
 	{
 		public virtual int Id { get; set; }
 		public virtual int Version { get; set; }
-		public virtual Character Character { get; set; }
-		public virtual Person AlterEgo { get; set; }
+		public virtual Person Character { get; set; }
+		public virtual AlterEgo AlterEgo { get; set; }
 	}
 }

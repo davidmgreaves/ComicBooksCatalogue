@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ComicBooksDataModel
 {
-	public class Character
+	public class AlterEgo
 	{
 		public virtual int Id { get; set; }
 		public virtual string Name { get; set; }
